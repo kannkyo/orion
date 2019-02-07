@@ -9,6 +9,19 @@ Orion is ...
 
 by [Orion landing page](https://orionhub.org/mixloginstatic/landing.html)
 
+# Usage
+
+Execute command bellow.
+
+```bash
+docker run -p 8080:8080 -it kannkyo/orion
+```
+
+# Tags
+
+- latest : monst latest version
+- nn.n : orion version name
+
 # License
 
 - This Dockerfile is distributed by MIT License.
