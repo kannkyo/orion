@@ -2,7 +2,7 @@ FROM alpine:latest AS build-env
 
 WORKDIR /tmp
 RUN apk add --no-cache curl && \
-    curl -o orion.zip http://mirrors.ibiblio.org/eclipse/orion/drops/R-20.0-201903291844/eclipse-orion-20.0.0S1-linux.gtk.x86_64.zip && \
+    curl -o orion.zip https://download.eclipse.org/orion/drops/R-22.0-202004211519/eclipse-orion-22.0.0S1-linux.gtk.x86_64.zip && \
     unzip orion.zip
 
 FROM openjdk:8-jre-slim
